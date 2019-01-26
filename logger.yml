@@ -1,0 +1,16 @@
+LogEngine:  
+  Config:
+    Piece: 7
+    # one day / 一天的 time.Duration 值
+    Timer: 86400000000000    
+    # os.O_CREATE|os.O_TRUNC|os.O_WRONLY
+    FileFlag: 1537
+    #采用循环模式
+    LoopLogFile: true
+
+    
+    #--------------------        以下是可选配置              ----------------
+    #可选配置，如果没有输入则默认将日志当前文件夹的 data/log/Daily.log 里
+    #FileName: data/log/Daily.log(you path and name)
+
+    #----------------------------------------------------------------------
